@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:src="@drawable/airbnb_logo" />
+
+        <ImageButton
+            android:id="@+id/ibFacebook"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/facebook"/>
+
+        <ImageButton
+            android:id="@+id/ibGoogle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/google"/>
+
+        <Button
+            android:id="@+id/ibEmail"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="#AAFFFFFF"
+            android:padding="0dp"
+            android:text="@string/label_email"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+            android:id="@+id/tvDisclaimer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:text="@string/label_disclaimer"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#AAFFFFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>

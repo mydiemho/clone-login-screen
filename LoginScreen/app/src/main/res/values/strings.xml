@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sign in or Create an Account</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_email">Email</string>
+    <string name="label_disclaimer">We promise we won\'t post anything to your wall unless you ask us to.</string>
+
+</resources>
